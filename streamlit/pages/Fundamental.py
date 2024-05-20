@@ -21,7 +21,7 @@ uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["cs
 if uploaded_file is not None:
     input_df = pd.read_csv(uploaded_file)
 else:
-    input_df = pd.read_csv("pages/Sample.csv")
+    input_df = pd.read_csv("Sample.csv")
    # def user_input_features():
     #    island = st.sidebar.selectbox('Island',('Biscoe','Dream','Torgersen'))
      #   sex = st.sidebar.selectbox('Sex',('male','female'))
