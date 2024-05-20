@@ -22,7 +22,7 @@ uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["cs
 if uploaded_file is not None:
     input_df = pd.read_csv(uploaded_file)
 else:
-    input_df = pd.read_csv("pages/Alternating Framework.csv")
+    input_df = pd.read_csv("Alternating Framework.csv")
 st.subheader('User Input features')
 
 if uploaded_file is not None:
