@@ -19,7 +19,7 @@ N2= st.sidebar.slider('Time', 0.0,20.1,10.2)
 i1= st.sidebar.slider('Interest', -20.1,20.1,0.2)
 Cashflow = st.sidebar.text_input('CashFlow', 1000)
 init = st.sidebar.text_input('Initial Investment', 50.1)
-
+l=0
 if(PMT=="begining"):
     l=1
 def joke(N):
